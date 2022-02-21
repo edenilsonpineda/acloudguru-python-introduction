@@ -14,7 +14,7 @@ class Tire:
         present on the side of the tire
 
         Example: 'P215/65R15'
-        :return: str
+        :return: string
         """
         return (f"{self.tire_type}{self.width}/{self.ratio}"
                 + f"{self.construction}{self.diameter}")
