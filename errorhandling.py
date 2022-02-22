@@ -12,5 +12,7 @@ except FileExistsError as err:
 except Exception:
     print(f"Unable to write to the file")
     raise
+finally:
+    print("Execution completed")
 
 
